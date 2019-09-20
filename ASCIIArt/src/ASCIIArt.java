@@ -17,11 +17,45 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
+	public static void sun(){
+		System.out.println("  \\|/");
+		System.out.println(" --o--");
+		System.out.println("  /|\\");
+	}
+	
+	public static void bird(){
+		System.out.print("<o^ \n");
+		System.out.println(" ea \n");
+	}
+	
+	public static void cloud(){
+		System.out.println("\t\t  ooooooooooo");
+		System.out.println("\t\t ooooooooooooo");
+		System.out.println("\t\tooooooooooooooo");
+		System.out.println("\t\t  oooooooooo");
+	}
+	
+	public static void tree(){
+		System.out.println("\t    *****");
+		System.out.println("\t  ********");
+		System.out.println("\t **********");
+		System.out.println("\t*************");
+		System.out.println("\t*************");
+		System.out.println("\t **********");
+		System.out.println("\t     ||| *");
+		System.out.println("\t     |||/");
+		System.out.println("\t     |||");
+	}
+	
+	public static void explanation() {
+		System.out.println("\n This is a tree with a bird, a cloud, and the sun above it.");
+	}
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		sun();
+		cloud();
+		bird();
+		tree();
+		explanation();
+		
 	}
 }
